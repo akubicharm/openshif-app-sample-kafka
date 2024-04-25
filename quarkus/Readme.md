@@ -4,7 +4,7 @@
 
 ## OpenShiftへのデプロイ
 
-JDK の s2i ビルドを利用する場合には、Runnable Jarを生成する必要があるので、pom.xml に `<quarkus.package.true>uber-jar</quarkus.package.type>`　が必要。
+BuildStrategy = git でs2i ビルドを利用する場合には、Runnable Jarを生成する必要があるので、pom.xml に `<quarkus.package.true>uber-jar</quarkus.package.type>`　が必要。
 
 ```
     <properties>
